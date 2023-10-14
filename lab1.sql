@@ -56,7 +56,7 @@ SELECT ST_Area(ST_Difference((SELECT geometria FROM budynki
 							 WHERE nazwa = 'BuildingB')));
 							 
 SELECT nazwa FROM budynki
-WHERE ST_Y(ST_Centroid(geometria)) > (SELECT ST_Y(ST_Centroid(geometria)) FROM drogi WHERE nazwa = 'RoadX');
+WHERE ST_Y(ST_Centroid(geometria)) > (SELECT ST_Y(ST_StartPoint(geometria)) FROM drogi WHERE nazwa = 'RoadX');
 
 SELECT ST_Area(ST_SymDifference((SELECT geometria FROM budynki 
 								WHERE nazwa = 'BuildingC'),
