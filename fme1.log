@@ -1,0 +1,115 @@
+2023-12-17 20:28:53|   0.0|  0.0|INFORM|Current FME version: FME 2023.0.1.0 (20230630 - Build 23332 - WIN64)
+2023-12-17 20:28:53|   0.0|  0.0|INFORM|System Time: 20231217192853 UTC
+2023-12-17 20:28:53|   0.0|  0.0|INFORM|FME_HOME is 'C:\Program Files\FME\'
+2023-12-17 20:28:53|   0.0|  0.0|INFORM|FME for March (node locked-crc)
+2023-12-17 20:28:53|   0.0|  0.0|INFORM|Serial Number: 0
+2023-12-17 20:28:53|   0.0|  0.0|INFORM|Temporary License: 107 days left.
+2023-12-17 20:28:53|   0.0|  0.0|INFORM|Machine host name is: Felicyja
+2023-12-17 20:28:53|   0.0|  0.0|INFORM|OS Locale Name     : en_GB
+2023-12-17 20:28:53|   0.0|  0.0|INFORM|OS Locale Encoding : windows-1250
+2023-12-17 20:28:53|   0.0|  0.0|INFORM|Process Encoding   : UTF-8
+2023-12-17 20:28:53|   0.0|  0.0|INFORM|FME API version: '4.0 20230418'
+2023-12-17 20:28:53|   0.0|  0.0|INFORM|FME Configuration: FME_BASE is 'no'
+2023-12-17 20:28:53|   0.0|  0.0|INFORM|FME Configuration: FME_MF_DIR is 'C:\Users\zuzka\Documents\studia\GEOINFA\Bazy_danych_przestrzennych\lab8/'
+2023-12-17 20:28:53|   0.0|  0.0|INFORM|FME Configuration: FME_MF_NAME is 'fme1.fmw'
+2023-12-17 20:28:53|   0.0|  0.0|INFORM|FME Configuration: FME_PRODUCT_NAME is 'FME(R) 2023.0.1.0'
+2023-12-17 20:28:53|   0.0|  0.0|INFORM|Operating System: Microsoft Windows 11 64-bit  (Build 22621)
+2023-12-17 20:28:53|   0.0|  0.0|INFORM|FME Platform: WIN64
+2023-12-17 20:28:53|   0.0|  0.0|INFORM|System Status: 356.43 GB of disk space available in the FME temporary folder (C:\Users\zuzka\AppData\Local\Temp\wbrun_1702834119292_16012\fmetmp_c)
+2023-12-17 20:28:53|   0.0|  0.0|INFORM|System Status: 31.31 GB of physical memory available
+2023-12-17 20:28:53|   0.0|  0.0|INFORM|System Status: 125.25 GB of virtual memory available
+2023-12-17 20:28:53|   0.0|  0.0|INFORM|START - ProcessID: 26248, peak process memory usage: 42664 kB, current process memory usage: 42664 kB
+2023-12-17 20:28:53|   0.0|  0.0|INFORM|FME Configuration: Command line arguments are `C:\Program Files\FME\fme.exe' `C:/Users/zuzka/Documents/studia/GEOINFA/Bazy_danych_przestrzennych/lab8\wb-xlate-1702841328033_16012' `LOG_STANDARDOUT' `YES' `LOG_TIMINGS' `YES' `LogCountServerName' `50334' `LOG_STANDARDOUT' `No' `WORKBENCH_LOG_SERVER' `50270'
+2023-12-17 20:28:53|   0.0|  0.0|INFORM|FME Configuration: Connection Storage: 'C:\Users\zuzka\AppData\Roaming\Safe Software\FME\'
+2023-12-17 20:28:53|   0.0|  0.0|INFORM|Shared folders for formats are : C:\Program Files\FME\datasources;C:\Users\zuzka\Documents\FME\Formats
+2023-12-17 20:28:53|   0.0|  0.0|INFORM|Shared folders for transformers are : C:\Users\zuzka\AppData\Roaming\Safe Software\FME\Packages\23332-win64\transformers;C:\Program Files\FME\transformers;C:\Users\zuzka\AppData\Roaming\Safe Software\FME\FME Store\Transformers
+2023-12-17 20:28:53|   0.0|  0.0|INFORM|Shared folders for coordinate systems are : C:\Users\zuzka\Documents\FME\CoordinateSystems
+2023-12-17 20:28:53|   0.0|  0.0|INFORM|Shared folders for coordinate system exceptions are : C:\Users\zuzka\Documents\FME\CoordinateSystemExceptions
+2023-12-17 20:28:53|   0.0|  0.0|INFORM|Shared folders for coordinate system grid overrides are : C:\Users\zuzka\Documents\FME\CoordinateSystemGridOverrides
+2023-12-17 20:28:53|   0.0|  0.0|INFORM|Shared folders for CS-MAP transformation exceptions are : C:\Users\zuzka\Documents\FME\CsmapTransformationExceptions
+2023-12-17 20:28:53|   0.0|  0.0|INFORM|Shared folders for transformer categories are : C:\Users\zuzka\Documents\FME\TransformerCategories
+2023-12-17 20:28:53|   0.0|  0.0|INFORM|FME Configuration: Reader Keyword is `MULTI_READER'
+2023-12-17 20:28:53|   0.0|  0.0|INFORM|FME Configuration: Writer Keyword is `MULTI_WRITER'
+2023-12-17 20:28:53|   0.0|  0.0|INFORM|FME Configuration: Writer Group Definition Keyword is `MULTI_WRITER_DEF'
+2023-12-17 20:28:53|   0.0|  0.0|INFORM|FME Configuration: Reader type is `MULTI_READER'
+2023-12-17 20:28:53|   0.0|  0.0|INFORM|FME Configuration: Writer type is `MULTI_WRITER'
+2023-12-17 20:28:53|   0.0|  0.0|INFORM|FME Configuration: No destination coordinate system set
+2023-12-17 20:28:53|   0.0|  0.0|INFORM|FME Configuration: Current working folder is `C:\Users\zuzka\Documents\studia\GEOINFA\Bazy_danych_przestrzennych\lab8'
+2023-12-17 20:28:53|   0.0|  0.0|INFORM|FME Configuration: Temporary folder is `C:\Users\zuzka\AppData\Local\Temp\wbrun_1702834119292_16012\fmetmp_c', set from environment variable `FME_TEMP'
+2023-12-17 20:28:53|   0.0|  0.0|INFORM|FME Configuration: Cache folder is 'C:\Users\zuzka\AppData\Local\Temp'
+2023-12-17 20:28:53|   0.0|  0.0|INFORM|FME Configuration: FME_HOME is `C:\Program Files\FME\'
+2023-12-17 20:28:53|   0.0|  0.0|INFORM|FME Configuration: Start freeing memory when the process exceeds 93.94 GB
+2023-12-17 20:28:53|   0.0|  0.0|INFORM|FME Configuration: Stop freeing memory when the process is below 70.45 GB
+2023-12-17 20:28:53|   0.0|  0.0|INFORM|Creating writer for format: 
+2023-12-17 20:28:53|   0.0|  0.0|INFORM|Creating reader for format: 
+2023-12-17 20:28:53|   0.0|  0.0|INFORM|MULTI_READER(MULTI_READER): Will fail with first member reader failure
+2023-12-17 20:28:53|   0.0|  0.0|INFORM|Using Multi Reader with keyword `MULTI_READER' to read multiple datasets
+2023-12-17 20:28:53|   0.0|  0.0|INFORM|Using MultiWriter with keyword `MULTI_WRITER' to output data (ID_ATTRIBUTE is `multi_writer_id')
+2023-12-17 20:28:53|   0.0|  0.0|INFORM|Writer output will be ordered by value of multi_writer_id
+2023-12-17 20:28:53|   0.0|  0.0|INFORM|Loaded module 'LogCount_func' from file 'C:\Program Files\FME\plugins/LogCount_func.dll'
+2023-12-17 20:28:53|   0.0|  0.0|INFORM|FME API version of module 'LogCount_func' matches current internal version (4.0 20230418)
+2023-12-17 20:28:53|   0.0|  0.0|INFORM|Emptying factory pipeline
+2023-12-17 20:28:53|   0.0|  0.0|STATS |Router and Unexpected Input Remover (RoutingFactory): Tested 0 input feature(s), wrote 0 output feature(s): 0 matched merge filters, 0 were routed to output, 0 could not be routed.
+2023-12-17 20:28:53|   0.0|  0.0|STATS |Unwanted Router Input Nuker (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2023-12-17 20:28:53|   0.0|  0.0|STATS |GEOTIFF_GEOTIFF_1 Splitter (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2023-12-17 20:28:53|   0.0|  0.0|STATS |scotland_and_wales_region_OGCGEOPACKAGE_1 Splitter (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2023-12-17 20:28:53|   0.0|  0.0|STATS |Restoring 56 feature(s) from FME feature store file `C:\Users\zuzka\AppData\Local\Temp\wb-cache-fme1-XQresf\Main_RasterExtentsCoercer -1 7 fo 0 EXTENTS  0  a9a64777dfac64ab643424b891638244dfe39da6.ffs'
+2023-12-17 20:28:53|   0.2|  0.2|STATS |Destination Feature Type Routing Correlator (RoutingFactory): Tested 56 input feature(s), wrote 56 output feature(s): 0 matched merge filters, 56 were routed to output, 0 could not be routed.
+2023-12-17 20:28:53|   0.2|  0.0|STATS |Final Output Nuker (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2023-12-17 20:28:53|   0.2|  0.0|INFORM|MULTI_WRITER: multi_writer_id `8': Started outputting features
+2023-12-17 20:28:53|   0.2|  0.0|INFORM|Creating writer for format: Esri Geodatabase (File Geodb)
+2023-12-17 20:28:54|   0.4|  0.2|INFORM|Trying to find a DYNAMIC plugin for writer named `GEODATABASE_FILE'
+2023-12-17 20:28:54|   0.4|  0.0|INFORM|Loaded module 'GEODATABASE_FILE' from file 'C:\Program Files\FME\plugins/..\geodatabase9.dll'
+2023-12-17 20:28:54|   0.4|  0.0|INFORM|FME API version of module '..\geodatabase9' matches current internal version (4.0 20230418)
+2023-12-17 20:28:54|   0.4|  0.0|INFORM|FME Configuration: No destination coordinate system set
+2023-12-17 20:28:54|   0.4|  0.0|INFORM|Writer `GEODATABASE_FILE_3' of type `GEODATABASE_FILE' using group definition keyword `GEODATABASE_FILE_3_DEF'
+2023-12-17 20:28:59|   0.9|  0.5|INFORM|The ArcObjects license 'Advanced' is being selected from the ESRILicenseInfo ArcObjects call
+2023-12-17 20:29:04|   1.2|  0.3|INFORM|FME has checked out an Esri license. The product checked out is 'Advanced'
+2023-12-17 20:29:04|   1.2|  0.0|INFORM|Installed ArcGIS version is '3.2.1'
+2023-12-17 20:29:05|   1.3|  0.1|INFORM|Created and connected to the ArcGIS 10.0 File Geodatabase at 'C:\Users\zuzka\Documents\studia\GEOINFA\Bazy_danych_przestrzennych\lab8\Results.gdb'
+2023-12-17 20:29:05|   1.3|  0.0|INFORM|Fast deletes enabled
+2023-12-17 20:29:05|   1.3|  0.0|INFORM|The 'HAS_Z_VALUES' keyword is set to 'AUTO_DETECT'. With the exception of MultiPatch feature classes, the dimensionality of new feature classes will be based on the first feature written to the feature class. (Features with no geometry are considered 2D)
+2023-12-17 20:29:05|   1.3|  0.0|INFORM|A default z-value of '0' will be used for all 3D features where z-values are not provided
+2023-12-17 20:29:05|   1.3|  0.0|INFORM|Esri Geodatabase Writer: Not simplifying geometries being written
+2023-12-17 20:29:05|   1.3|  0.0|INFORM|Transactions are being used by the Esri Geodatabase Writer
+2023-12-17 20:29:06|   1.4|  0.1|INFORM|Esri Geodatabase Writer: Creating feature type `Extents'
+2023-12-17 20:29:07|   1.5|  0.1|INFORM|Esri Geodatabase Writer: The field 'OBJECTID' in feature type 'Extents' will not be updated since it is not editable
+2023-12-17 20:29:07|   1.5|  0.0|INFORM|Esri Geodatabase Writer: The field 'SHAPE_Length' in feature type 'Extents' will not be updated since it is not editable
+2023-12-17 20:29:07|   1.5|  0.0|INFORM|Esri Geodatabase Writer: The field 'SHAPE_Area' in feature type 'Extents' will not be updated since it is not editable
+2023-12-17 20:29:07|   1.5|  0.0|STATS |GeodatabaseRelationshipFeaturesPipeline::GeodatabaseRelationshipFeatures (SortFactory): Finished sorting a total of 0 features.
+2023-12-17 20:29:07|   1.5|  0.0|INFORM|Transaction #1 (final transaction) was successfully committed
+2023-12-17 20:29:08|   1.5|  0.0|INFORM|Closing the Esri Geodatabase writer
+2023-12-17 20:29:08|   1.5|  0.0|INFORM|=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2023-12-17 20:29:08|   1.5|  0.0|INFORM|Feature output statistics for `GEODATABASE_FILE' writer using keyword `GEODATABASE_FILE_3':
+2023-12-17 20:29:08|   1.5|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2023-12-17 20:29:08|   1.5|  0.0|STATS |                               Features Written
+2023-12-17 20:29:08|   1.5|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2023-12-17 20:29:08|   1.5|  0.0|STATS |Extents                                                                     56
+2023-12-17 20:29:08|   1.5|  0.0|STATS |==============================================================================
+2023-12-17 20:29:08|   1.5|  0.0|STATS |Total Features Written                                                      56
+2023-12-17 20:29:08|   1.5|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2023-12-17 20:29:08|   1.5|  0.0|INFORM|MULTI_WRITER: multi_writer_id `8': done writing 56 feature(s) 
+2023-12-17 20:29:08|   1.5|  0.0|INFORM|^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2023-12-17 20:29:08|   1.5|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2023-12-17 20:29:08|   1.5|  0.0|STATS |                            Features Read Summary
+2023-12-17 20:29:08|   1.5|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2023-12-17 20:29:08|   1.5|  0.0|STATS |==============================================================================
+2023-12-17 20:29:08|   1.5|  0.0|STATS |Total Features Read                                                          0
+2023-12-17 20:29:08|   1.5|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2023-12-17 20:29:08|   1.5|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2023-12-17 20:29:08|   1.5|  0.0|STATS |                           Features Written Summary
+2023-12-17 20:29:08|   1.5|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2023-12-17 20:29:08|   1.5|  0.0|STATS |Extents                                                                     56
+2023-12-17 20:29:08|   1.5|  0.0|STATS |==============================================================================
+2023-12-17 20:29:08|   1.5|  0.0|STATS |Total Features Written                                                      56
+2023-12-17 20:29:08|   1.5|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2023-12-17 20:29:08|   1.5|  0.0|WARN  |-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-
+2023-12-17 20:29:08|   1.5|  0.0|WARN  |-~                                                                             ~-
+2023-12-17 20:29:08|   1.5|  0.0|WARN  |-~    Feature caches have been recorded at every stage of the translation.     ~-
+2023-12-17 20:29:08|   1.5|  0.0|WARN  |-~                      To inspect the recorded features,                      ~-
+2023-12-17 20:29:08|   1.5|  0.0|WARN  |-~              click the feature cache icons next to the ports.               ~-
+2023-12-17 20:29:08|   1.5|  0.0|WARN  |-~                                                                             ~-
+2023-12-17 20:29:08|   1.5|  0.0|WARN  |-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-
+2023-12-17 20:29:08|   1.5|  0.0|INFORM|Translation was SUCCESSFUL with 7 warning(s) (56 feature(s) output)
+2023-12-17 20:29:08|   1.5|  0.0|INFORM|FME Session Duration: 14.9 seconds. (CPU: 0.6s user, 0.9s system)
+2023-12-17 20:29:08|   1.5|  0.0|INFORM|END - ProcessID: 26248, peak process memory usage: 170204 kB, current process memory usage: 166704 kB
