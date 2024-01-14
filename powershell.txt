@@ -1,0 +1,31 @@
+sk.eyJ1IjoienV6YW5uYTk5IiwiYSI6ImNscmRpeHFwOTBmN3Eya28zNTBscGlucXYifQ.3EQHA0eV8wcysKu63tC-mA
+https://tilestream-tilesets-production.s3.amazonaws.com/1b/_pending/8dnvb5hr3nn1fx20gzu5jdrlc/zuzanna99
+tilestream-tilesets-production
+1b/_pending/8dnvb5hr3nn1fx20gzu5jdrlc/zuzanna99
+
+1.
+Invoke-RestMethod -Uri "https://api.mapbox.com/uploads/v1/zuzanna99/credentials?access_token=sk.eyJ1IjoienV6YW5uYTk5IiwiYSI6ImNscmRpeHFwOTBmN3Eya28zNTBscGlucXYifQ.3EQHA0eV8wcysKu63tC-mA" -Method Post
+
+2.
+$env:AWS_ACCESS_KEY_ID ="ASIATNLVGLR2MIR527EV"
+$env:AWS_SECRET_ACCESS_KEY = "ATO3B80hOE8DQ7ne02eXA3mtAYBdOWsYZc5sARAm"
+$env:AWS_SESSION_TOKEN = "FwoGZXIvYXdzEN///////////wEaDIRphm2vt7sUZdcfyiKYAlWFfvhrA64XVmfJIy7FonjdMMPmstEMX4i+V9v1u0o9OSdNZCaSuXcA2zYUxwjsu1De0Eg5/EhILz+udevGxvYQ9IcdMRHMQ7dc/UQpGdM+PAsTgVl+hE5qPeTdgWfF6lNk3lzhqQ06Rsbt2IwkHVp1OxQBKlZq9HcpTgCxnMQ3rjC0lg2WGhM9uS3jsK75JeMgLF6rNezW4ZKqNxlFP7dcmzZ65BYXaW3EgejnNCw73+VM7K87ysEP4kkMWUAlwm7ekZ3+qje8SbJndjhQ12RiPwmdeAzdBSs3yUyER1bk6lZM3DOp/aapeqEMWT7HHLK1+wKFveMHD1CdvQMeGSmt4VAd5rGnD+wyYQ7eAPuPFxbbcDGAzGQov8iPrQYyKZmWpHVKAEL/m1flmGzwrbWugl4BctTJ0A5Cr4gF5RACdxPLClOVGody"
+
+3.
+aws s3 cp T2019_KAR_POI_TABLE.zip s3://tilestream-tilesets-production/11/_pending/g1wrd3chvou1pqk0930njdrlc/zuzanna99 --region eu-north-1
+
+4.
+$headers = @{
+    "Content-Type" = "application/json"
+    "Cache-Control" = "no-cache"
+}
+
+5.
+$body = @{
+    url = "https://tilestream-tilesets-production.s3.amazonaws.com/11/_pending/g1wrd3chvou1pqk0930njdrlc/zuzanna99"
+    tileset = "zuzanna99.poiMap"
+    name = "poiMap"
+} | ConvertTo-Json
+
+6.
+Invoke-RestMethod -Uri "https://api.mapbox.com/uploads/v1/zuzanna99?access_token=sk.eyJ1IjoienV6YW5uYTk5IiwiYSI6ImNscmRpeHFwOTBmN3Eya28zNTBscGlucXYifQ.3EQHA0eV8wcysKu63tC-mA" -Method Post -Headers $headers -Body $body
