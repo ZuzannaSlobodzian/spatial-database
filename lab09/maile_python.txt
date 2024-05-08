@@ -1,0 +1,30 @@
+import smtplib
+from email.mime.text import MIMEText
+import fme
+from datetime import date
+from datetime import datetime
+
+subject = "Sentinel"
+today =  date.today()
+today = today.strftime("%d/%m/%Y")
+time = datetime.now()
+time = time.strftime("%H:%M")
+body = """Drogi użytkowniku {},
+    przetwarzanie danych dla powiatu {} zakończono sukcesem o godzinie {} {}.""".format(fme.macroValues['emailKlient'], fme.macroValues['powiat'], time, today)
+sender = fme.macroValues['email']
+recipients = fme.macroValues['emailKlient']
+password = fme.macroValues['haslo']
+
+
+def send_email(subject, body, sender, recipients, password):
+    msg = MIMEText(body)
+    msg['Subject'] = subject
+    msg['From'] = sender
+    msg['To'] = ', '.join(recipients)
+    with smtplib.SMTP_SSL('smtp.gmail.com', 465) as smtp_server:
+       smtp_server.login(sender, password)
+       smtp_server.sendmail(sender, recipients, msg.as_string())
+    print("Message sent!")
+
+
+send_email(subject, body, sender, recipients, password)
